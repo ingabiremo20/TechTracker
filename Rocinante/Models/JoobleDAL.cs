@@ -19,7 +19,7 @@ namespace Rocinante.Models
             //set http method
             request.Method = "POST";
             //set content type
-            request.ContentType = "application/x-www-form-urlencoded";
+            request.ContentType = "application/json";
 
             //create request writer
             var writer = new StreamWriter(request.GetRequestStream());
